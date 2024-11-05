@@ -1,5 +1,6 @@
 import data from "./maindata"
 import Card from "./Card/Card";
+import "./main.scss"
 
 function Main() {
     return (
