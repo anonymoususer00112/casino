@@ -1,6 +1,7 @@
 import data from "./maindata"
 import Card from "./Card/Card";
 import "./main.scss"
+import {useState} from "react";
 
 function Main() {
     const cardsTotalLength = 10;
