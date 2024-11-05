@@ -1,0 +1,30 @@
+.header {
+  z-index: 1000;
+  background-color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  button {
+    font-weight: 700;
+    --tw-text-opacity: 1;
+    color: rgb(255 255 255/var(--tw-text-opacity));
+    font-size: .875rem;
+    line-height: 1.25rem;
+    padding-bottom: .5rem;
+    padding-top: .5rem;
+    padding-left: .75rem;
+    padding-right: .75rem;
+    border-radius: 9999px;
+    border: none;
+  }
+  .value button {
+    background-color: black;
+  }
+  .in {
+    background-color: rgb(255 1 65);
+  }
+  .out {
+    background-color: rgb(29 199 222);;
+  }
+}
